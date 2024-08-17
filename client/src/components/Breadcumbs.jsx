@@ -8,7 +8,7 @@ export function Breadcumbs() {
   const pathnames = location.pathname.split('/').filter(x => x);
 
   return (
-    <Breadcrumbs>
+    <Breadcrumbs separator='/' className=" ">
       <a href="/" className="opacity-60">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,7 @@ export function Breadcumbs() {
           const last = index === pathnames.length - 1;
           const to = `/${pathnames.slice(0, index + 1).join('/')}`;
           const routeName = routes.find(route => route.link == to)?.label;
-          console.log(routeName);
-          
+         
           return (
             <a href=''  key={index}>
               {last ? (

@@ -1,13 +1,20 @@
 import React from 'react'
-import { Navbar } from '../components'
+import { Navbar, Footer } from '../components'
 
 const Home = () => {
   return (
-    <div >
+    <div className='text-black'>
       <div>
         <Navbar />
       </div>
-      <h1 className='text-red-500'>hello</h1>
+      <div className='h-svh'>
+
+        <h1 className='text-red-500'>hello</h1>
+      </div>
+
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }

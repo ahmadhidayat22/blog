@@ -5,6 +5,9 @@ import Carousel from "./Carousel";
 import { Footer } from "./Footer";
 import { Breadcumbs } from "./Breadcumbs";
 import Post from "./Post";
+import LatestArticle from "./LatestArticle";
+import Testing from "./Test";
+import Switcher from "./Switcher";
 
 
 export {
@@ -14,5 +17,8 @@ export {
     Footer,
     Breadcumbs,
     HeroCard,
+    LatestArticle,
+    Testing,
+    Switcher,
     Post
 }

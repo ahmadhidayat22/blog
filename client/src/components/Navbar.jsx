@@ -1,6 +1,6 @@
 import { menuNav } from '../constant';
 import React, { useState, useEffect } from 'react';
-
+import Switcher from './Switcher';
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
@@ -34,10 +34,10 @@ const Navbar = () => {
 	window.addEventListener("scroll", handleScroll);
 
   return (
-    <div className='w-full border py-2'>
+    <div className='w-full py-2 text-black dark:text-white'>
         <div className="flex justify-between mx-5">
             <div>
-                <h1 className='font-bold text-2xl'><a href="/">Title</a></h1>
+                <h1 className='font-bold text-2xl '><a href="/">Title</a></h1>
             </div>
             <div className="">
                 {menuNav.map((item, i) => (
@@ -46,9 +46,9 @@ const Navbar = () => {
                     href={item.href}
                     className={classNames(
                         i === activeIndex
-                            ? " text-yellow-500  "
-                            : "text-white hover:text-gray-300",
-                        " px-3  xl:text-2xl  font-semibold "
+                            ? " text-[#ebb913] "
+                            : " hover:text-gray-300",
+                        " px-3  xl:text-xl  font-semibold "
                     )}
                     aria-current={i === activeIndex ? "page" : undefined}
                     onClick={() => handleNavClick(item, i)}
@@ -64,7 +64,9 @@ const Navbar = () => {
             <div className='flex gap-4 font-semibold'>
                 <a href="/login" className=''>Login</a>
                 <a href="/register">Register</a>
+                <Switcher />
             </div>
+           
         </div>
     </div>
   )
