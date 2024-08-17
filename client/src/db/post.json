@@ -1,0 +1,44 @@
+{
+    "post": [
+        {
+            "_id": "ObjectId('66b3bd67ef80a71b34228fb5')",
+            "title": "post pertama",
+            "slug": "post-pertama",
+            "user_id": 123,
+            "content": "hai ini content pertama'",
+            "comments": []
+        },
+        {
+            "_id": "ObjectId('66b3bd81ef80a71b34228fb6')",
+            "title": "post kedua",
+            "slug" : "post-kedua",
+            "user_id": 123,
+            "content": "hai ini content kedua",
+            "comments": []
+        },
+        {
+            "_id": "ObjectId('66b3c895ef80a71b34228fb7')",
+            "title":"post ketiga",
+            "slug":"post-ketiga",
+            "user_id": 123,
+            "content": "hai ini content ketiga",
+            "comments": []
+        },
+        {
+            "_id": "ObjectId('66b3c89fef80a71b34228fb8')",
+            "title": "post keempat",
+            "slug": "post-keempat",
+            "user_id": 123,
+            "content": "hai ini content keempat",
+            "comments": []
+        },
+        {
+            "_id": "ObjectId('66b3c89fef80a71b34228fas')",
+            "title": "post kelima",
+            "slug": "post-kelima",
+            "user_id": 123,
+            "content": "hai ini content kelima",
+            "comments": []
+        }
+    ]
+}
