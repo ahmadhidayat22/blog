@@ -24,13 +24,12 @@ const SinglePost = () => {
     <div>
         <div>
             <Navbar />
-            <div className='ms-32 mt-3'>
-              <Breadcumbs />
-
-            </div>
+           
         </div>
         <div className='w-full mx-auto  justify-center flex gap-4'>
           <div className='w-3/6'>
+            <Breadcumbs />
+
             <Post post={post}/>
 
           </div>

@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id": "98af",
+      "data": {
+        "username": "amway",
+        "email": "ahmadnurhidayat271@gmail.com",
+        "password": "123"
+      }
+    },
+    {
+      "id": "fff4",
+      "data": {
+        "username": "amway",
+        "email": "amway8531@gmail.com",
+        "password": "12345678"
+      }
+    }
+  ]
+}

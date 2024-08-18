@@ -12,12 +12,12 @@ const Login = () => {
 
   
   return (
-    <div className="text-black">
+    <div className="text-black flex flex-col  justify-between h-screen">
       <div>
         <Navbar />
       </div>
 
-      <div className="border rounded shadow-sm  mt-16 w-96 mx-auto">
+      <div className="border rounded shadow-sm  mt-16  w-96 mx-auto ">
         <div className="mx-auto mt-3 text-center ">
           <h1 className="text-2xl font-bold dark:text-white">Sign In</h1>
         </div>
@@ -50,7 +50,8 @@ const Login = () => {
           </button>
         </div>
       </div>
-      <div className="mt-16">
+      
+      <div className="">
         <Footer />
       </div>
     </div>

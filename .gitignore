@@ -9,6 +9,8 @@ coverage
 # production
 build
 
+yarn.lock
+package-lock.json
 # misc
 .env
 .DS_Store

@@ -1,55 +1,54 @@
 {
-    "post": [
-        {
-            "_id": "ObjectId('66b3bd67ef80a71b34228fb5')",
-            "title": "post pertama",
-            "slug": "post-pertama",
-            "user_id": 123,
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi in, beatae alias aspernatur, sint pariatur et iusto ullam, labore cumque architecto deserunt. Suscipit, molestiae doloribus rem officia numquam optio doloremque aliquid recusandae est temporibus commodi quisquam ipsam vero quidem impedit placeat officiis accusantium consequatur? Iste perferendis, similique laboriosam dolore nam libero perspiciatis magnam hic amet ipsum. Explicabo nisi laboriosam molestiae fugiat non! Qui cupiditate provident possimus repellendus quo magni nisi, soluta et consectetur, maiores iusto, ipsum sit voluptatum quasi molestias! Temporibus porro praesentium accusamus ipsa debitis dignissimos molestias! Quam dolor non quia tempora omnis fuga nisi tempore minima quaerat quibusdam. Error dolorem, ut commodi officia alias corrupti voluptatum dicta obcaecati vitae provident fugiat fugit quod inventore voluptate laborum quidem quam beatae ea debitis itaque. Velit, omnis illo! Consectetur praesentium quisquam aperiam omnis incidunt quaerat voluptatum sunt ex magnam optio repudiandae atque dolorum minus natus perspiciatis facere et quas corrupti tenetur possimus vel, similique ducimus, numquam perferendis? Nam eligendi cupiditate labore laboriosam quos recusandae nesciunt maxime aspernatur soluta nostrum, optio omnis possimus nihil hic molestias suscipit rem cumque error tenetur animi ducimus dignissimos nobis. Tempore recusandae, ea officiis aspernatur odit inventore hic dicta? Hic veniam neque suscipit cumque nisi, laborum dicta velit dignissimos quam facilis eos, minus officiis adipisci illum repellat possimus soluta voluptatem ullam. Ratione perspiciatis excepturi dolorum officiis incidunt necessitatibus nobis at voluptatum cumque modi consequatur, eum obcaecati ducimus pariatur aliquam laudantium quisquam, fugit id. Laborum officiis eos veritatis dolorum tempore cumque quisquam asperiores totam animi architecto, vel cupiditate quam, beatae consectetur? Facilis asperiores, qui aut quis neque molestias quibusdam? Obcaecati veniam deserunt voluptas voluptates eligendi cum quidem, recusandae, quisquam cupiditate non necessitatibus architecto earum dignissimos. Tempora in sunt veritatis perspiciatis rerum reprehenderit. Nam veritatis error nesciunt porro laboriosam sunt iste fuga ducimus dicta tenetur, magni excepturi temporibus aspernatur.",
-            "category" : "educational",
-            "tag" : [],
-            "comments": []
-        },
-        {
-            "_id": "ObjectId('66b3bd81ef80a71b34228fb6')",
-            "title": "post kedua",
-            "slug" : "post-kedua",
-            "user_id": 123,
-            "content": "hai ini content kedua",
-            "category" : "educational",
-            "tag" : [],
-            "comments": []
-        },
-        
-        {
-            "_id": "ObjectId('66b3c895ef80a71b34228fb7')",
-            "title":"post ketiga",
-            "slug":"post-ketiga",
-            "user_id": 123,
-            "content": "hai ini content ketiga",
-            "category" : "religious",
-            "tag" : [],
-            "comments": []
-        },
-        {
-            "_id": "ObjectId('66b3c89fef80a71b34228fb8')",
-            "title": "post keempat",
-            "slug": "post-keempat",
-            "user_id": 123,
-            "content": "hai ini content keempat",
-            "category" : "technology",
-            "tag" : [],
-            "comments": []
-        },
-        {
-            "_id": "ObjectId('66b3c89fef80a71b34228fas')",
-            "title": "post kelima",
-            "slug": "post-kelima",
-            "user_id": 123,
-            "content": "hai ini content kelima",
-            "category" : "news",
-            "tag" : [],
-            "comments": []
-        }
-    ]
+  "post": [
+    {
+      "_id": "ObjectId('66b3bd67ef80a71b34228fb5')",
+      "title": "post pertama",
+      "slug": "post-pertama",
+      "user_id": 123,
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi in, beatae alias aspernatur, sint pariatur et iusto ullam, labore cumque architecto deserunt. Suscipit, molestiae doloribus rem officia numquam optio doloremque aliquid recusandae est temporibus commodi quisquam ipsam vero quidem impedit placeat officiis accusantium consequatur? Iste perferendis, similique laboriosam dolore nam libero perspiciatis magnam hic amet ipsum. Explicabo nisi laboriosam molestiae fugiat non! Qui cupiditate provident possimus repellendus quo magni nisi, soluta et consectetur, maiores iusto, ipsum sit voluptatum quasi molestias! Temporibus porro praesentium accusamus ipsa debitis dignissimos molestias! Quam dolor non quia tempora omnis fuga nisi tempore minima quaerat quibusdam. Error dolorem, ut commodi officia alias corrupti voluptatum dicta obcaecati vitae provident fugiat fugit quod inventore voluptate laborum quidem quam beatae ea debitis itaque. Velit, omnis illo! Consectetur praesentium quisquam aperiam omnis incidunt quaerat voluptatum sunt ex magnam optio repudiandae atque dolorum minus natus perspiciatis facere et quas corrupti tenetur possimus vel, similique ducimus, numquam perferendis? Nam eligendi cupiditate labore laboriosam quos recusandae nesciunt maxime aspernatur soluta nostrum, optio omnis possimus nihil hic molestias suscipit rem cumque error tenetur animi ducimus dignissimos nobis. Tempore recusandae, ea officiis aspernatur odit inventore hic dicta? Hic veniam neque suscipit cumque nisi, laborum dicta velit dignissimos quam facilis eos, minus officiis adipisci illum repellat possimus soluta voluptatem ullam. Ratione perspiciatis excepturi dolorum officiis incidunt necessitatibus nobis at voluptatum cumque modi consequatur, eum obcaecati ducimus pariatur aliquam laudantium quisquam, fugit id. Laborum officiis eos veritatis dolorum tempore cumque quisquam asperiores totam animi architecto, vel cupiditate quam, beatae consectetur? Facilis asperiores, qui aut quis neque molestias quibusdam? Obcaecati veniam deserunt voluptas voluptates eligendi cum quidem, recusandae, quisquam cupiditate non necessitatibus architecto earum dignissimos. Tempora in sunt veritatis perspiciatis rerum reprehenderit. Nam veritatis error nesciunt porro laboriosam sunt iste fuga ducimus dicta tenetur, magni excepturi temporibus aspernatur.",
+      "category": "educational",
+      "tag": [],
+      "comments": []
+    },
+    {
+      "_id": "ObjectId('66b3bd81ef80a71b34228fb6')",
+      "title": "post kedua",
+      "slug": "post-kedua",
+      "user_id": 123,
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi in, beatae alias aspernatur, sint pariatur et iusto ullam, labore cumque architecto deserunt. Suscipit, molestiae doloribus rem officia numquam optio doloremque aliquid recusandae est temporibus commodi quisquam ipsam vero quidem impedit placeat officiis accusantium consequatur? Iste perferendis, similique laboriosam dolore nam libero perspiciatis magnam hic amet ipsum. Explicabo nisi laboriosam molestiae fugiat non! Qui cupiditate provident possimus repellendus quo magni nisi, soluta et consectetur, maiores iusto, ipsum sit voluptatum quasi molestias! Temporibus porro praesentium accusamus ipsa debitis dignissimos molestias! Quam dolor non quia tempora omnis fuga nisi tempore minima quaerat quibusdam. Error dolorem, ut commodi officia alias corrupti voluptatum dicta obcaecati vitae provident fugiat fugit quod inventore voluptate laborum quidem quam beatae ea debitis itaque. Velit, omnis illo! Consectetur praesentium quisquam aperiam omnis incidunt quaerat voluptatum sunt ex magnam optio repudiandae atque dolorum minus natus perspiciatis facere et quas corrupti tenetur possimus vel, similique ducimus,",
+      "category": "educational",
+      "tag": [],
+      "comments": []
+    },
+    {
+      "_id": "ObjectId('66b3c895ef80a71b34228fb7')",
+      "title": "post ketiga",
+      "slug": "post-ketiga",
+      "user_id": 123,
+      "content": "hai iniLorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi in, beatae alias aspernatur, sint pariatur et iusto ullam, labore cumque architecto deserunt. Suscipit, molestiae doloribus rem officia numquam optio doloremque aliquid recusandae est temporibus commodi quisquam ipsam vero quidem impedit placeat officiis accusantium consequatur? Iste perferendis, similique laboriosam dolore nam libero perspiciatis magnam hic amet ipsum. Explicabo nisi laboriosam molestiae fugiat non! Qui cupiditate provident possimus repellendus quo magni nisi, soluta et consectetur, maiores iusto, ipsum sit voluptatum quasi molestias! Temporibus porro praesentium accusamus ipsa debitis dignissimos molestias! Quam dolor non quia tempora omnis fuga nisi tempore minima quaerat quibusdam. Error dolorem, ut commodi officia alias corrupti voluptatum dicta obcaecati vitae provident fugiat fugit quod inventore voluptate laborum quidem quam beatae ea debitis itaque. Velit, omnis illo! Consectetur praesentium quisquam aperiam omnis incidunt quaerat voluptatum sunt ex magnam optio repudiandae atque dolorum minus natus perspiciatis facere et quas corrupti tenetur possimus vel, similique ducimus,",
+      "category": "religious",
+      "tag": [],
+      "comments": []
+    },
+    {
+      "_id": "ObjectId('66b3c89fef80a71b34228fb8')",
+      "title": "post keempat",
+      "slug": "post-keempat",
+      "user_id": 123,
+      "content": "hai ini content keempat",
+      "category": "technology",
+      "tag": [],
+      "comments": []
+    },
+    {
+      "_id": "ObjectId('66b3c89fef80a71b34228fas')",
+      "title": "post kelima",
+      "slug": "post-kelima",
+      "user_id": 123,
+      "content": "hai ini content kelima",
+      "category": "news",
+      "tag": [],
+      "comments": []
+    }
+  ]
 }

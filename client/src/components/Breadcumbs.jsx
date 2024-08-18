@@ -1,7 +1,7 @@
 import { Breadcrumbs } from "@material-tailwind/react";
-import { routes } from "../utils/routes";
+import  routes  from "../utils/routes";
 import { Link, useLocation } from 'react-router-dom';
-
+import { Route } from "react-router-dom";
 
 export function Breadcumbs() {
   const location = useLocation();
@@ -20,21 +20,28 @@ export function Breadcumbs() {
         </svg>
       </a>
       
-      {pathnames.map((value, index) => {
-          const last = index === pathnames.length - 1;
-          const to = `/${pathnames.slice(0, index + 1).join('/')}`;
-          const routeName = routes.find(route => route.link == to)?.label;
-         
-          return (
-            <a href=''  key={index}>
-              {last ? (
-                <span className="mx-0.5 ">{routeName}</span>
-              ) : (
-                <Link to={to} className="mx-0.5 opacity-60">{routeName}</Link>
-              )}
-            </a>
-          );
-        })}
+      {pathnames.map((name, index) => {
+        const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`
+        const isLast = index === pathnames.length - 1
+        const route = routes.find(r => r.path === routeTo || r.path.includes(':'))
+
+        if (route) {
+          return isLast ? (
+            <span key={name} className="opacity-60">
+              {route.name}
+            </span>
+          ) : (
+            <Link key={name} to={routeTo} className="opacity-60">
+              {route.name}
+            </Link>
+          )
+        }
+
+        return null
+      })}
+
+      
+   
       
 
     </Breadcrumbs>

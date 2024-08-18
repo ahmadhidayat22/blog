@@ -5,7 +5,7 @@ import NotFound from "./NotFound";
 import Posts from "./Posts";
 import SinglePost from "./SinglePost";
 
-export {
+export default {
     Home,
     Login,
     Registrasi,
